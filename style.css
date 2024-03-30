@@ -1,0 +1,38 @@
+body{
+    background:rgb(203, 114, 241);
+  }
+  #timer{
+    font-size:50px;
+    text-align:center;
+    margin-top:100px;
+  }
+  #start,#reset{
+    background-color:white;
+    border: 2px solid rgb(0, 255, 85);
+    width:100px;
+    height:30px;
+    margin:5px;
+    border-radius:10px;
+    font-weight:bold;
+     text-align:center;
+  }
+  .button{
+    text-align:center;
+    margin:10px;
+  }
+  #start:hover,#reset:hover{
+   cursor: pointer;
+  }
+
+  #start:hover{
+    background-color: chartreuse;
+  }
+
+  #reset:hover{
+    border: 2px solid rgb(234, 166, 166);
+    background-color: yellow;
+  }
+
+  .stop:hover{
+    background-color: cornsilk;
+  }
